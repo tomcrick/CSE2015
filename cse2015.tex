@@ -66,15 +66,16 @@ which has had less focus is the concept of reproducibility as a
 would offer a significant benefit to the wider computational science
 community.
 
-In this paper, we propose a technical specification for a service for
-reproducibility, presenting cyberinfrastructure and associated
-workflow for a service which would enable such a specification to be
-verified and validated. In addition to addressing a pressing need for
-the scientific community, we further speculate on the potential
-contribution to the wider software development community of services
-which automate \emph{de novo} compilation and testing of code from
-source. We illustrate our proposed specification and workflow by using
-the {\emph{BioModelAnalyzer}} tool as a running example.
+In this paper, we propose a high-level technical specification for a
+service for reproducibility, presenting cyberinfrastructure and
+associated workflow for a service which would enable such a
+specification to be verified and validated. In addition to addressing
+a pressing need for the scientific community, we further speculate on
+the potential contribution to the wider software development community
+of services which automate \emph{de novo} compilation and testing of
+code from source. We illustrate our proposed specification and
+workflow by using the {\emph{BioModelAnalyzer}} tool as a running
+example.
 \end{abstract}
 
 % For peer review papers, you can put extra information on the cover
@@ -88,8 +89,7 @@ the {\emph{BioModelAnalyzer}} tool as a running example.
 %\IEEEpeerreviewmaketitle
 
 \begin{IEEEkeywords}
-Reproducibility, Artifact evaluation, Cyberinfrastructure, Benchmarks, 
-Verification, Validation, Research software, Open science
+Reproducibility, Artifact evaluation, Cyberinfrastructure, Benchmarks, Research software, Open science
 \end{IEEEkeywords}
 
 
@@ -181,8 +181,9 @@ science~\cite{santer-et-al:2011}, ecology~\cite{thiele+grimm:2015},
 epidemiology~\cite{peng-et-al:2006},
 psychology~\cite{chambers-et-al:2014},
 econometrics~\cite{koenker+zeileis:2009} and the social
-sciences~\cite{conte-et-al:2012}, as well as the wide utility of
-creating and sharing reusable scientific workflows and web
+sciences~\cite{conte-et-al:2012,hutton+henderson:2015}, as well as the
+wide utility of creating and sharing reusable scientific workflows and
+web
 services~\cite{davidson+freire:2008,crick-et-al:2009b,oabarriaga-et-al:2014}. While
 there has been a revolution in the sharing and dissemination of
 published papers (\emph{open access}) and the subsequent discussions
@@ -295,7 +296,7 @@ publications or other publicly-accessible datasets.
 
 \begin{figure*}[!htp]
 	\centering
-	\includegraphics[width=\textwidth]{workflow}
+	\includegraphics[width=\textwidth]{images/workflow}
 	\caption{Proposed reproducibility service workflow}
 	\label{schematic}
 \end{figure*}
@@ -594,7 +595,7 @@ or stop going on about it.
 
 % references section
 \bibliographystyle{IEEEtran}
-\bibliography{ieee2015}
+\bibliography{cse2015}
 
 % that's all folks
 \end{document}
